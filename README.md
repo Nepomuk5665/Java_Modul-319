@@ -1,4 +1,4 @@
-# 19.11.2024
+# Lernjournal
 
 ## 19. November 2024
 
