@@ -1,27 +1,14 @@
-# IntelliJ Debugging Guide
+# Debugging Aufgabe Modul 319
+### Task b (mit Eingabe "3")
 
-## Breakpoints setzen
-- Klicke links neben die Zeilennummer, um einen Breakpoint zu setzen.
-- Alternativ: `Ctrl + F8` (Breakpoint in aktueller Zeile setzen/deaktivieren).
+## 1. Welche Zahl erscheint als letztes auf der Konsole?
+Die letzte Zahl ist 25.
 
-## Debugging starten
-1. Wähle oben im Menü das Debug-Icon (grüner Käfer) oder drücke `Shift + F9`.
-2. Das Programm startet im Debug-Modus.
+## 2. Wie kannst du die FOR-Schleife Schritt für Schritt überwachen?
+Setze einen Breakpoint bei der FOR-Schleife und drücke `F8` für Step Over. Im Variables-Fenster siehst du dann die Werte von zaehler und i.
 
-## Schritt-für-Schritt-Durchlauf
-- **Step Over (nächste Zeile)**: `F8`
-- **Step Into (Methoden aufrufen)**: `F7`
-- **Step Out (Methoden verlassen)**: `Shift + F8`
+## 3. Welche Tastenkombination ermöglicht das Ausblenden aller Breakpoints?
+`Ctrl + Shift + F8`
 
-## Breakpoints deaktivieren/ausblenden
-- Alle Breakpoints anzeigen: `Ctrl + Shift + F8`.
-- Häkchen bei "Enabled" entfernen, um Breakpoints zu deaktivieren.
-
-## Variablen überwachen
-- Bewege die Maus über eine Variable, um ihren aktuellen Wert zu sehen.
-- Alternativ: Im Debug-Fenster im Tab "Variables" überwachen.
-
-## Debugging stoppen
-- Klicke auf das Stop-Symbol (rotes Quadrat) oder drücke `Ctrl + F2`.
-
-
+## 4. Wie gross ist der Inhalt der Variable i, wenn die Variable zaehler auf 12 wechselt?
+i = 37
