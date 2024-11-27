@@ -23,7 +23,7 @@
   - Test D1
   - Test A1
   - Test A2
-- Weiterarbeit an laufenden Aufgaben
+- Weiterarbeit an laufenden Aufgaben:
   -E1 Serie A B
 
 ### Was wir gelernt haben:
