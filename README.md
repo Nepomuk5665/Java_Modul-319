@@ -23,8 +23,8 @@
   - Test D1
   - Test A1
   - Test A2
-- Weiterarbeit an laufenden Aufgaben:
-  -E1 Serie A B
+- Weiter an laufendem Aufgaben gearbeteitet:
+  - E1 Serie A
 
 ### Was wir gelernt haben:
 - Anforderungsanalyse in der Softwareentwicklung:
