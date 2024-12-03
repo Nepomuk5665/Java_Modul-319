@@ -1,11 +1,20 @@
-flowchart TD
-    start((●)) --> input[Drei ganze Zahlen<br/>vom Benutzer einlesen]
+stateDiagram-v2
+    [*] --> ZahlenEinlesen
+    ZahlenEinlesen: Drei Zahlen vom Benutzer einlesen
     
-    input --> vergleich[Zahlen vergleichen]
+    ZahlenEinlesen --> ZahlenVergleichen
+    ZahlenVergleichen: Zahlen vergleichen
     
-    vergleich --> ausgabe[Ausgabe des<br/>kleinsten Zahlenwertes]
+    ZahlenVergleichen --> ErgebnisseAusgeben
+    ErgebnisseAusgeben: Ergebnisse ausgeben
+    note right of ErgebnisseAusgeben
+        - Kleinste Zahl ausgeben
+        - Größte Zahl ausgeben
+        - Prüfen ob alle Zahlen gleich
+    end note
     
-    ausgabe --> decision{Sind alle<br/>drei Zahlen<br/>gleich gross?}
+    ErgebnisseAusgeben --> GleichheitPruefen
+    GleichheitPruefen: Sind alle Zahlen gleich?
     
-    decision -->|Ja| ende((⬤))
-    decision -->|Nein| input
+    GleichheitPruefen --> [*]: Ja
+    GleichheitPruefen --> ZahlenEinlesen: Nein
