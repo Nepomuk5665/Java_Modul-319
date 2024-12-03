@@ -45,3 +45,40 @@
   - Unterscheidung zwischen:
     - Funktionalen Anforderungen (Was soll das Programm tun?)
     - Nicht-funktionalen Anforderungen (Qualitätskriterien)
+
+## 3. Dezember 2024
+### Was wir gemacht haben:
+- Erfolgreich Tests absolviert:
+ - Test D2 (Java OOP Grundlagen) 
+ - Test E2 (Java Fehlerbehandlung)
+- Tieferes Verständnis der Fehlerbehandlung in Java
+- Praktische Übungen zu Code-Review und Debugging
+
+### Was wir gelernt haben:
+- Fehlerarten in Java:
+ - Syntaxfehler (Compilerfehler)
+ - Laufzeitfehler
+ - Logische Fehler
+
+- Code-Review (C-R):
+ - Führt zur deutlichen Reduktion von Fehlern
+ - Verschiedene Techniken wie Walkthrough
+ - Formale Prozesse und deren Dokumentation
+
+- Debugging in Java:
+ - Verwendung von Debugger-Tools
+ - Schrittweise Programmausführung
+ - Überprüfung von Variableninhalten
+ - Erkennen und Beheben von Laufzeitfehlern
+
+- Fehlermeldungen:
+ - Unterscheidung zwischen Compiler- und Laufzeitfehlern
+ - Interpretation von Fehlermeldungen 
+ - Warnmeldungen und deren Bedeutung
+ - Lokalisierung von Fehlern im Code
+
+- Best Practices:
+ - Systematische Fehlersuche
+ - Dokumentation von gefundenen Fehlern
+ - Implementierung von Gegenmaßnahmen
+ - Präventive Maßnahmen zur Fehlervermeidung
