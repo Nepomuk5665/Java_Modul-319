@@ -1,20 +1,24 @@
-stateDiagram-v2
-    [*] --> ZahlenEinlesen
-    ZahlenEinlesen: Drei Zahlen vom Benutzer einlesen
+flowchart TD
+    start([Start]) --> input["Drei ganze Zahlen einlesen
+    ----
+    Scanner scanner = new Scanner(System.in);
+    System.out.println('Geben Sie drei Zahlen ein:');
+    int zahl1 = scanner.nextInt();
+    int zahl2 = scanner.nextInt();
+    int zahl3 = scanner.nextInt();"]
     
-    ZahlenEinlesen --> ZahlenVergleichen
-    ZahlenVergleichen: Zahlen vergleichen
+    input --> vergleich["Zahlen vergleichen
+    ----
+    int min = Math.min(Math.min(zahl1, zahl2), zahl3);"]
     
-    ZahlenVergleichen --> ErgebnisseAusgeben
-    ErgebnisseAusgeben: Ergebnisse ausgeben
-    note right of ErgebnisseAusgeben
-        - Kleinste Zahl ausgeben
-        - Größte Zahl ausgeben
-        - Prüfen ob alle Zahlen gleich
-    end note
+    vergleich --> ausgabe["Ausgabe des kleinsten Zahlenwertes
+    ----
+    System.out.println('Kleinste Zahl: ' + min);"]
     
-    ErgebnisseAusgeben --> GleichheitPruefen
-    GleichheitPruefen: Sind alle Zahlen gleich?
+    ausgabe --> decision{"Sind alle Zahlen gleich?
+    ----
+    zahl1 == zahl2 && 
+    zahl2 == zahl3"}
     
-    GleichheitPruefen --> [*]: Ja
-    GleichheitPruefen --> ZahlenEinlesen: Nein
+    decision -->|"true"| ende([Ende])
+    decision -->|"false"| input
