@@ -1,0 +1,11 @@
+flowchart TD
+    start((●)) --> input[Drei ganze Zahlen<br/>vom Benutzer einlesen]
+    
+    input --> vergleich[Zahlen vergleichen]
+    
+    vergleich --> ausgabe[Ausgabe des<br/>kleinsten Zahlenwertes]
+    
+    ausgabe --> decision{Sind alle<br/>drei Zahlen<br/>gleich gross?}
+    
+    decision -->|Ja| ende((⬤))
+    decision -->|Nein| input
