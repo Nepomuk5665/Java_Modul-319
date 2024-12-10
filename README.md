@@ -82,3 +82,28 @@
  - Dokumentation von gefundenen Fehlern
  - Implementierung von Gegenmaßnahmen
  - Präventive Maßnahmen zur Fehlervermeidung
+
+## 10. Dezember 2024
+### Was wir gemacht haben:
+- Task A3 und I3 bearbeitet
+- EVA-Prinzip gelernt: Eingabe, Verarbeitung, Ausgabe sollten getrennt sein
+- Code-Stil Regeln für die Schule (TBZ-IT) kennengelernt
+
+### Was wir gelernt haben:
+- Code sauber schreiben:
+  - Mindestens 4 Zeichen einrücken
+  - Gute Namen für Variablen wählen 
+  - Klassen groß schreiben, Variablen klein
+  - Code auf Englisch, Kommentare auf Deutsch
+
+- EVA-Prinzip verstanden:
+  - Eingabe separat am Anfang
+  - Verarbeitung in der Mitte
+  - Ausgabe am Ende
+  - Macht den Code übersichtlicher
+  - Einfacher zu warten und zu erweitern
+
+- Mit IntelliJ gearbeitet:
+  - Code automatisch formatieren lassen
+  - Refactoring-Werkzeuge kennengelernt
+  - Code aufräumen und kommentieren
