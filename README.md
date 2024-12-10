@@ -85,7 +85,8 @@
 
 ## 10. Dezember 2024
 ### Was wir gemacht haben:
-- Task A3 und I3 bearbeitet
+- Task A3 bearbeitet
+- Task I3 angefangen
 - EVA-Prinzip gelernt: Eingabe, Verarbeitung, Ausgabe sollten getrennt sein
 - Code-Stil Regeln für die Schule (TBZ-IT) kennengelernt
 
