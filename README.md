@@ -108,3 +108,36 @@
   - Code automatisch formatieren lassen
   - Refactoring-Werkzeuge kennengelernt
   - Code aufräumen und kommentieren
+
+ ## 17. Dezember 2024
+### Was wir gemacht haben:
+- Erweitertes Lagerverwaltungssystem entwickelt:
+  - Grundstruktur mit EVA-Prinzip implementiert
+  - Verschiedene Produkttypen (Elektronik, Lebensmittel) erstellt
+  - Benutzerinteraktion über Konsolenmenü eingebaut
+  - CRUD-Operationen (Create, Read, Update, Delete) implementiert
+
+### Was wir gelernt haben:
+- Objektorientierte Programmierung vertieft:
+  - Abstrakte Klassen und Interfaces
+  - Vererbungshierarchien erstellen
+  - Polymorphismus in der Praxis anwenden
+  - Enums für Statusverwaltung nutzen
+  
+- Fortgeschrittene Java-Konzepte:
+  - Exception-Handling für Fehlerbehandlung
+  - Scanner für Benutzereingaben
+  - Stream API für Datenverarbeitung
+  - Enum-Verwendung für Status-Management
+
+- Softwarestrukturierung:
+  - Code auf mehrere Dateien aufteilen
+  - Klassenstrukturen planen
+  - EVA-Prinzip praktisch umsetzen
+  - Modulare Programmierung anwenden
+
+- Best Practices:
+  - Saubere Codeformatierung
+  - Aussagekräftige Kommentare
+  - Fehlerbehandlung implementieren
+  - Benutzerfreundliche Menüführung
