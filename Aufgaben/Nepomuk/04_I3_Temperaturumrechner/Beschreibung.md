@@ -1,4 +1,4 @@
-# Lagerverwaltungssystem - Dokumentation
+# Lagerverwaltungssystem - Idee
 
 ## Projektstruktur
 
