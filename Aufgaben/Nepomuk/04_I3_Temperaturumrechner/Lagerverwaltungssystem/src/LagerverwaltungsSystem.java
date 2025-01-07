@@ -79,6 +79,10 @@ public class LagerverwaltungsSystem {
         System.out.println("1. Elektronik");
         System.out.println("2. Lebensmittel");
         int typ = scanner.nextInt();
+        if (typ != 1 && typ != 2) {
+            System.out.print("Wrong Input!");
+            return;
+        }
         scanner.nextLine();
 
         System.out.print("Name: ");
