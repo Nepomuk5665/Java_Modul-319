@@ -141,12 +141,36 @@
   - Aussagekräftige Kommentare
   - Fehlerbehandlung implementieren
   - Benutzerfreundliche Menüführung
- 
 
-## 07.01.2025
+## 7. Januar 2025
+### Was wir gemacht haben:
+- Schachbrett-Programm in Java entwickelt:
+  - Grundlegende Brettdarstellung mit Figuren implementiert
+  - Bewegungsfunktion für Figuren erstellt
+  - Array-Manipulation für Spielzüge umgesetzt
+  - Visualisierung des Bretts in der Konsole realisiert
+- Nach den Ferien Java-Grundlagen aufgefrischt
+- Bugfixes am bestehenden Code durchgeführt
 
-Diego
--   Prüfung gelöst
--   Aufgabe schach zusammen erledigt
--   Kurz Projekt begonnen
+### Was wir gelernt haben:
+- Zweidimensionale Arrays in Java:
+  - Erstellung und Initialisierung
+  - Zugriff auf Array-Elemente
+  - Manipulation von Array-Inhalten
+  - Traversierung mit verschachtelten Schleifen
 
+- Methodenentwicklung:
+  - Parameter übergabe und -verarbeitung
+  - Implementierung von Bewegungslogik
+  - Konsolenausgabe formatieren
+
+- Debugging und Code-Verbesserung:
+  - Fehlererkennung in bestehendem Code
+  - Systematische Fehlerkorrektur
+  - Codeoptimierung nach den Ferien
+
+- Best Practices wiederholt:
+  - Klare Methodennamen (z.B. `printBoard`, `move`)
+  - Saubere Formatierung des Codes
+  - Logische Strukturierung der Funktionalität
+  - EVA-Prinzip bei der Bewegungslogik angewendet
