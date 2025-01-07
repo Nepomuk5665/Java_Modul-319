@@ -141,3 +141,12 @@
   - Aussagekräftige Kommentare
   - Fehlerbehandlung implementieren
   - Benutzerfreundliche Menüführung
+ 
+
+## 07.01.2025
+
+Diego
+-   Prüfung gelöst
+-   Aufgabe schach zusammen erledigt
+-   Kurz Projekt begonnen
+
