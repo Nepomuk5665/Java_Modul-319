@@ -174,3 +174,38 @@
   - Saubere Formatierung des Codes
   - Logische Strukturierung der Funktionalität
   - EVA-Prinzip bei der Bewegungslogik angewendet
+    
+
+## 14. Januar 2025
+
+### Was wir gemacht haben:
+- SSH Server Management System in Java entwickelt:
+  - Benutzer-Management implementiert (erstellen, einloggen, auflisten)
+  - Datei-Operationen programmiert (erstellen, bearbeiten, löschen)
+  - Sicherheitsfeatures eingebaut (Rechteverwaltung, Input-Validierung)
+  - Konsolenmenü für Benutzerinteraktion erstellt
+
+### Was wir gelernt haben:
+- SSH-Verbindungen in Java:
+  - JSch Bibliothek für SSH-Kommunikation
+  - Verbindungsaufbau und -management
+  - Ausführung von Remote-Befehlen
+  - Session-Handling und Authentifizierung
+
+- Fortgeschrittene Java-Konzepte:
+  - Exception-Handling für Netzwerkoperationen
+  - Scanner für Benutzereingaben
+  - Regex für Input-Validierung
+  - String-Manipulation für Befehlsausführung
+
+- Sicherheitsaspekte:
+  - Benutzerrechte-Verwaltung (Admin/User)
+  - Sichere Passwortvalidierung
+  - Dateizugriffsrechte
+  - Eingabeüberprüfung gegen Injection
+
+- Best Practices:
+  - Strukturierte Fehlerbehandlung
+  - Benutzerfreundliche Menüführung
+  - Klare Rückmeldungen an Benutzer
+  - Modularer Code-Aufbau nach EVA-Prinzip
