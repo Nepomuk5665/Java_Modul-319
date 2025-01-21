@@ -218,7 +218,7 @@
   - Hauptmenü programmiert mit Auswahlmöglichkeiten für verschiedene Spiele  
   - Zwei Spiele integriert:  
     - **Snake**: Spielfeld-Logik implementiert, Bewegungssteuerung und Punktesystem  
-    - **Tic Tac Toe**: Spielfeld erstellt, Spielregeln umgesetzt und Gewinnlogik programmiert  
+    - **Pong**: Spielfeld erstellt, Spielregeln umgesetzt und Gewinnlogik programmiert  
   - Grafische Konsolenausgabe für eine ansprechende Darstellung entwickelt  
   - Fehlerbehebung und Optimierung bestehender Codeabschnitte  
 
