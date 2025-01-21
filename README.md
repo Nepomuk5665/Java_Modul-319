@@ -209,3 +209,43 @@
   - Benutzerfreundliche Menüführung
   - Klare Rückmeldungen an Benutzer
   - Modularer Code-Aufbau nach EVA-Prinzip
+
+# 21. Januar 2025
+
+## Was ich gemacht habe:
+- An meinem eigenen Projekt gearbeitet: **Arcade in Java**  
+  - Grundstruktur der Arcade-Anwendung erstellt  
+  - Hauptmenü programmiert mit Auswahlmöglichkeiten für verschiedene Spiele  
+  - Zwei Spiele integriert:  
+    - **Snake**: Spielfeld-Logik implementiert, Bewegungssteuerung und Punktesystem  
+    - **Tic Tac Toe**: Spielfeld erstellt, Spielregeln umgesetzt und Gewinnlogik programmiert  
+  - Grafische Konsolenausgabe für eine ansprechende Darstellung entwickelt  
+  - Fehlerbehebung und Optimierung bestehender Codeabschnitte  
+
+## Was ich gelernt habe:
+- **Projektstrukturierung**:  
+  - Hauptprogramm als Einstiegspunkt und modulare Spiele-Integration  
+  - Code in separate Klassen und Pakete aufgeteilt für Übersichtlichkeit  
+
+- **Spielprogrammierung in Java**:  
+  - Verwendung von Schleifen und Bedingungen für Spielabläufe  
+  - Benutzerinteraktion über Tastatureingaben (Scanner)  
+  - Speicherung und Verarbeitung von Spielzuständen  
+
+- **Fortgeschrittene Java-Konzepte**:  
+  - Enums für Spielstatus und Steuerung  
+  - Dynamische Array- und Listennutzung  
+  - Refactoring zur Wiederverwendung von Code  
+
+- **Best Practices**:  
+  - Modularer Aufbau (jedes Spiel in einer eigenen Klasse)  
+  - Klare Trennung nach dem EVA-Prinzip:  
+    - Eingabe: Spielerbewegungen und Optionen  
+    - Verarbeitung: Spiellogik und Statusverwaltung  
+    - Ausgabe: Grafische Darstellung des Spielfelds  
+  - Regelmäßige Codeüberprüfung und Debugging für saubere Funktionalität  
+
+## Nächste Schritte:
+- Weitere Spiele integrieren (z. B. Pong oder Minesweeper)  
+- Benutzerfreundlichkeit verbessern (z. B. Speichern von Highscores)  
+- GUI-Umsetzung mit JavaFX für eine moderne Darstellung prüfen
