@@ -283,4 +283,4 @@
   - Mehrere Dateien/Klassen für User‐Management, File‐Management und Netzwerklogik  
   - Lesbare Fehlermeldungen und Ausgaben für die Nutzer
 
-ENTLICH FERTIG BITTE GÖNNEN SIE MIR(NEPOMUK CRHONEK) EINE ❤️6❤️
+ENTLICH FERTIG BITTE GÖNNEN SIE UNS EINE ❤️6❤️
