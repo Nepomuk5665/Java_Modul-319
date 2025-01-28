@@ -249,3 +249,38 @@
 - Weitere Spiele integrieren (z. B. Pong oder Minesweeper)  
 - Benutzerfreundlichkeit verbessern (z. B. Speichern von Highscores)  
 - GUI-Umsetzung mit JavaFX für eine moderne Darstellung prüfen
+
+
+## 28. Januar 2025
+
+### Was wir gemacht haben:
+- **Testfälle für unser SSH Server Management System erstellt**  
+  - Fünf Happy-Path‐Testfälle mit klarer Struktur (Beschreibung, Schritte, erwartetes Ergebnis, tatsächliches Ergebnis) dokumentiert  
+  - Fokus lag auf Benutzer‐ und Dateioperationen (z. B. Admin‐Benutzer anlegen, Datei erstellen/ändern/löschen)
+
+- **Testumgebung eingerichtet**  
+  - JUnit in unser Java‐Projekt integriert, um einzelne Methoden automatisiert zu testen  
+  - Erste einfache Unit‐Tests für Datei‐ und Benutzerfunktionen geschrieben  
+  - Manuelle Tests in der Konsole durchgeführt (Überprüfung der erwarteten Ausgaben und Fehlermeldungen)
+
+- **Projektstruktur weiter verfeinert**  
+  - Hauptklasse „SSHApp“ schlanker gehalten und Logik in separate Manager‐Klassen ausgelagert  
+  - Aufbau einer Utility‐Klasse für wiederverwendbare Helfer‐Methoden
+
+### Was wir gelernt haben:
+- **Testfall‐Erstellung (E4)**  
+  - Wichtigkeit einer klaren Trennung zwischen Beschreibung, Schritten und erwarteten Ergebnissen  
+  - Dokumentation hilft beim schnellen Erkennen und Reproduzieren von Fehlern  
+  - „Happy Path“ zuerst testen, um Basisfunktionalität zu sichern
+
+- **Automatisiertes Testen mit JUnit**  
+  - Vorbereitung der Testmethoden (Annotations wie `@Test`)  
+  - Assertions (`assertEquals`, `assertTrue`, etc.) zur automatischen Prüfung der Ergebnisse  
+  - Klares Reporting von Fehlern und Testfortschritt
+
+- **Verbesserung der Codequalität**  
+  - Saubere Trennung der Verantwortlichkeiten (EVA‐Prinzip)  
+  - Mehrere Dateien/Klassen für User‐Management, File‐Management und Netzwerklogik  
+  - Lesbare Fehlermeldungen und Ausgaben für die Nutzer
+
+ENTLICH FERTIG BITTE GÖNNEN SIE MIR(NEPOMUK CRHONEK) EINE ❤️6❤️
